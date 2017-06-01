@@ -1,0 +1,7 @@
+apply plugin: 'java'
+sourceCompatibility = 1.8
+
+dependencies {
+    compile gradleApi()
+    compile 'com.android.tools.build:gradle:2.3.2'
+}
